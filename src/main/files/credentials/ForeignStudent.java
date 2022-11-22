@@ -1,3 +1,5 @@
+package main.files.credentials;
+
 import java.time.LocalDate;
 
 public class ForeignStudent extends Student{

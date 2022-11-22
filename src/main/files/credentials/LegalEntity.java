@@ -1,9 +1,10 @@
-import java.time.LocalDate;
+package main.files.credentials;
 
-public class LegalEntity {
+import main.files.abstraction.Entity;
+
+public class LegalEntity extends Entity {
     private String name;
     private String id;
-    private LocalDate registerDate;
 
     public LegalEntity(String name, String id) {
         this.name = name;
@@ -26,11 +27,4 @@ public class LegalEntity {
         this.id = id;
     }
 
-    public LocalDate getRegisterDate() {
-        return registerDate;
-    }
-
-    public void setRegisterDate(LocalDate registerDate) {
-        this.registerDate = registerDate;
-    }
 }

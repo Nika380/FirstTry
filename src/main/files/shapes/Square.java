@@ -1,4 +1,6 @@
-public class Square implements Drawable{
+package main.files.shapes;
+
+public class Square implements Drawable {
     public int a;
 
     public Square(int a) {
@@ -7,7 +9,7 @@ public class Square implements Drawable{
 
     @Override
     public String toString() {
-        return "Square{" +
+        return "main.files.shapes.Square{" +
                 "a=" + a +
                 '}';
     }

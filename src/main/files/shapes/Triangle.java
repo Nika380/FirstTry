@@ -1,4 +1,6 @@
-public class Triangle implements Drawable{
+package main.files.shapes;
+
+public class Triangle implements Drawable {
 
     public int a;
     public int b;
@@ -13,7 +15,7 @@ public class Triangle implements Drawable{
 
     @Override
     public void draw() {
-        System.out.println("Triangle{" +
+        System.out.println("main.files.shapes.Triangle{" +
                 "a=" + a +
                 ", b=" + b +
                 ", c=" + c +

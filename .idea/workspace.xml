@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ccaffbd-aa5f-42f3-a1b2-3835875b9788" name="Changes" comment="fi">
-      <change afterPath="$PROJECT_DIR$/src/DrawService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForeignStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LegalEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+    <list default="true" id="5ccaffbd-aa5f-42f3-a1b2-3835875b9788" name="Changes" comment="l">
+      <change afterPath="$PROJECT_DIR$/src/main/files/abstraction/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstTry/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstTry/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/shapes/DrawService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/shapes/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForeignStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/credentials/ForeignStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegalEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/credentials/LegalEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/credentials/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/shapes/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/credentials/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/credentials/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/files/shapes/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/files/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +55,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="main.files.Main" />
       <module name="FirstTry" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669133540712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="l">
+      <created>1669137090645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669137090645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fi" />
-    <option name="LAST_COMMIT_MESSAGE" value="fi" />
+    <MESSAGE value="l" />
+    <option name="LAST_COMMIT_MESSAGE" value="l" />
   </component>
 </project>

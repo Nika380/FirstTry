@@ -1,7 +1,10 @@
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
+package main.files.credentials;
 
-public class Person {
+import main.files.abstraction.Entity;
+
+import java.time.LocalDate;
+
+public class Person extends Entity {
     public Person(String firstname, String lastname, LocalDate birthdate) {
         setFirstname(firstname);
         setLastname(lastname);
@@ -12,7 +15,6 @@ public class Person {
     private String firstname;
     private String lastname;
     private Integer salary;
-    private LocalDate birthdate;
 
     public String getFirstname() {
         return firstname;
@@ -39,18 +41,8 @@ public class Person {
 
     }
 
-    public LocalDate getBirthdate() {
-        return birthdate;
-    }
 
-    public void setBirthdate(LocalDate birthdate) {
-        this.birthdate = birthdate;
-    }
 
-    public int getAge() {
-        return (int) ChronoUnit.YEARS.between(birthdate, LocalDate.now());
-
-    }
 
     private static int count;
     public static int getCount() {
